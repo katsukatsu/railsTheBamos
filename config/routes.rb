@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :fan_comments
+  resources :reviews
+  resources :authors
+  resources :users
+  resources :books
+  resources :books
   get 'hello/show'
 
   # The priority is based upon order of creation: first created -> highest priority.

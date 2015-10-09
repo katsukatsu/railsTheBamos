@@ -1,4 +1,5 @@
 class HelloController < ApplicationController
-  def show
+  def list
+      @book = Book.all
   end
 end
